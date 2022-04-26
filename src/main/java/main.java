@@ -15,8 +15,13 @@ public class main {
 //        }
 //        System.out.println("loop finished");
         //FOR LOOP
-        for (int a = 0; a < 3; a++) { // this is the simpler way of doing what we did ^^^
-            System.out.println(a);
-        }
+//        for (int a = 0; a < 3; a++) { // this is the simpler way of doing what we did ^^^
+//            System.out.println(a);
+        // DO WHILE LOOP
+        int a = 10;
+        do {
+            System.out.println("Hello my friend");
+        } while (a <10);
+        System.out.println("Loop Finished");
     }
-}
+    }
